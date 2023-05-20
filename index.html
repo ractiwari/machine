@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+      </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <h2>VOTING MACHINE</h2>
+                  <hr>
+                  <br>
+                  <br>
+    
+                  <div class="one">ENTER YOUR NAME</div>
+                  <input type="text" class="first" placeholder="Enter your Full Name" id="date">
+   <br>
+   <br>
+                  <div class="two">ENTER YOUR'S AGE</div>
+                  <input type="text" class="second" placeholder="Enter Your Age" id ="month">
+                  
+                  <br>
+                  <br>
+                       
+                  <div class="three">ENTER YOUR ADHAR </div>
+                  <input type="text" class="third" placeholder="Enter your Adhar no." id ="year">
+    
+                  <br>
+                  <br>
+<div class ="forth">SELECT THE PARTY
+</div>
+                  <select class="for" id ="op">
+                    <option >Select PARTY:</option>
+                    <option value="1">BJP</option>
+                    <option value="2">CONGRESS</option>
+                    <option value="3">AAP</option>
+                    <option value="4">TMC</option>
+                  </select>
+<br>
+<br>
+                  <button class="btn" onclick="age()">CONFIRM</button>
+                  <br>
+                  <br>
+                  <div class ="age" id="age"></div>
+                  <br>
+                  <br>
+                  <div class ="fif">YOUR VOTE GOES TO</div>
+                  <br>
+                  <div class ="age" id="res"></div>
+
+
+    
+
+    </div>
+
+    <script>
+        var d1=document.getElementById('date').value;
+        var m1=document.getElementById('month').value;
+        var y1=document.getElementById('year').value;
+        if(m1<18){
+            alert("You cant Vote");
+        }
+
+        var oper=document.getElementById('op').value;
+        
+        
+        document.getElementById('age').innerHTML='Your Name is' +"  "   +d1+ " "+    'AGE' +" "  +m1+ "years"  +" "+  'ADHAR' +" " +y1;
+        if(oper==1){
+            var ans = "BJP";
+          
+            document.getElementById('res').innerHTML=ans;
+            
+        }
+        if(oper==2){
+            var ans = "CONGRESS";
+          
+            document.getElementById('res').innerHTML=ans;
+            
+        }
+        if(oper==3){
+            var ans = "AAP";
+            
+            document.getElementById('res').innerHTML=ans;
+            
+        }
+        if(oper==4){
+            var ans = "TMC";
+          
+            document.getElementById('res').innerHTML=ans;
+            
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    
+
+}
+.cont{
+    min-height:32rem;
+    width:35rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:6rem;
+    border:solid black;
+    background-color: white;
+    -webkit-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+    box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+    flex-wrap: wrap;
+}
+
+.one,.two,.three,.forth{
+flex-wrap:wrap;
+    margin-right:16rem;
+}
+.first,.second,.third,.for{
+    height: 1.8rem;
+   width: 26rem;
+   flex-wrap:wrap;
+}
+.btn{
+    color: red;
+    height: 2rem;
+    width: 7rem;
+    font-size: 21px;
+}
+.age{
+    margin-top: -3%;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 420px) {
+    .cont{
+        min-height:25rem;
+        width:24rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius:3%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top:6rem;
+        border:solid black;
+        background-color: white;
+        -webkit-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+        -moz-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+        box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+    }
+    .one,.two,.three,.forth{
+        flex-wrap:wrap;
+            margin-right:9rem;
+        }
+        .first,.second,.third,.for{
+            height: 1.8rem;
+           width: 18rem;
+           flex-wrap:wrap;
+        }
+    
+  }
+
+  
+@media only screen and (max-width: 293px) {
+    .cont{
+        min-height:25rem;
+        width:24rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius:3%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top:6rem;
+        border:solid black;
+        background-color: white;
+        -webkit-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+        -moz-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+        box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+    }
+    .one,.two,.three,.forth{
+        flex-wrap:wrap;
+            margin-right:5rem;
+        }
+        .first,.second,.third,.for{
+            height: 1.8rem;
+           width: 14rem;
+           flex-wrap:wrap;
+        }
+    
+  }
+  @media only screen and (max-width: 230px) {
+    .cont{
+        min-height:18rem;
+        width:20rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius:3%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top:6rem;
+        border:solid black;
+        background-color: white;
+        -webkit-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+        -moz-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+        box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+    }
+    .one,.two,.three,.forth{
+        margin-right: 5rem;
+        font-size: 14px;
+        flex-wrap:wrap;
+      }
+        
+        .first,.second,.third,.for{
+            height: 1.8rem;
+          width: 13rem;
+           flex-wrap:wrap;
+
+           
+        }}
+
+
+        @media only screen and (max-width: 230px) {
+            .cont{
+                min-height:14rem;
+                width:17rem;
+                flex-wrap: wrap;
+                flex-direction: column;
+                border-radius:3%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin-top:6rem;
+                border:solid black;
+                background-color: white;
+                -webkit-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+                -moz-box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+                box-shadow: -3px 2px 27px 7px rgba(0,0,0,0.75);
+            }
+            .one,.two,.three,.forth{
+                margin-right: 4rem;
+                font-size: 12px;
+                flex-wrap:wrap;
+              }
+                
+                .first,.second,.third,.for{
+                    height: 1.8rem;
+                  width: 11rem;
+                   flex-wrap:wrap;
+        
+                   
+                }
+                .age{
+                    margin-top: -3%;
+                    font-size: 1.3rem;
+                }}
+    
+  
